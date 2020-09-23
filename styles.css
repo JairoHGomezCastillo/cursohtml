@@ -1,65 +1,66 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    text-decoration: none;
-    list-style: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-body.inicio{
-    background-image: url(imgs/fondo.jpg);
-    background-size: cover;
+body.inicio {
+  background-image: url(imgs/fondo.jpg);
+  background-size: cover;
 }
-header{
-    font-style: italic;
-    background-color: rgba(23, 39, 78, .5);
-    width: 100%;
-    display: flex;  
+header {
+  font-style: italic;
+  background-color: rgba(23, 39, 78, 0.5);
+  width: 100%;
+  display: flex;
 }
-nav.opciones{
-    text-align: center;
-    padding: 15px;
-    background-color: #000080;
+nav.opciones {
+  text-align: center;
+  padding: 15px;
+  background-color: #000080;
 }
-a.menu{
-    padding: 15px;
-    font-size: 20px;
-    color: white;
+a.menu {
+  padding: 15px;
+  font-size: 20px;
+  color: #ffffff;
 }
-
-div.contenido{
-    background-color: rgba(255, 255, 255, .9);
-    text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
+a.menu:hover {
+  color: #ff0000;
 }
-
-table{
-    border-collapse: collapse;
-    margin: auto;
-    width: 80%;
-  }
-td{
-    width: 40%;
-    height: 100px;
-    padding: 10px;
-  }
-footer{
-    background-color: rgba(44, 77, 153,.5);
-    text-align: center;
-    color: #ffffff;
+div.contenido {
+  background-color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
 }
-div.lista{
-    width: 15%;
-    margin: auto;
+table {
+  border-collapse: collapse;
+  margin: auto;
+  width: 80%;
 }
-#positionPlayers{
-    margin: unset;
-    height: 10%;
+td {
+  width: 40%;
+  height: 100px;
+  padding: 10px;
 }
-.imgPlayers{
-    margin: auto;
+footer {
+  background-color: rgba(44, 77, 153, 0.5);
+  text-align: center;
+  color: #ffffff;
 }
-.jugadores{
-    margin: auto;
-    width: 8%;
+div.lista {
+  width: 15%;
+  margin: auto;
+}
+#positionPlayers {
+  margin: unset;
+  height: 10%;
+}
+.imgPlayers {
+  margin: auto;
+}
+.jugadores {
+  margin: auto;
+  width: 8%;
 }
